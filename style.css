@@ -44,27 +44,29 @@ main {
 }
 
 .about {
-    margin: 10px;
+    margin: 0 10px;
     flex: 2;
 }
 
 
 
 article {
-    margin: 10px;
+    margin-top: 20px;
 }
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .project {
-    flex: 2;
+    margin: auto;
 }
-.project > img {
-    height: 150px;
-    width: auto;
+
+#project-title {
+    text-align: center;
 }
+
 
 .img-container{
     flex: 1;
@@ -77,13 +79,34 @@ article {
     max-width: 100%;
 }
 
+a > img{
+    height: auto;
+    max-width: 250px;
+
+}
+
+h4{
+    text-align: center;
+}
+
+.project p{
+    text-align: center;
+}
+
+#contact > h3{
+    text-align: center;
+}
+
 footer {
-    padding: 20px;
+    padding: 6px;
     text-align: right;
+    background-color: slategray;
+    color: snow;
 }
 
 
-@media all and (max-width: 600px){
+
+@media all and (max-width: 800px){
     *{
         flex-direction: column;
     }
