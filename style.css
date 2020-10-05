@@ -97,6 +97,32 @@ h4{
     text-align: center;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    justify-items: baseline;
+    padding-bottom: 12px;
+}
+
+form > label {
+    padding: 8px;
+}
+
+form > input {
+    height: 20px;
+    padding: 8px;
+    margin: auto;
+}
+
+
+form > * {
+    vertical-align: top;
+}
+
+form > div {
+    padding: 8px;
+}
+
 footer {
     padding: 6px;
     text-align: right;
@@ -112,6 +138,9 @@ footer {
     }
     .img-container{
         margin: 20px auto;
+    }
+    form {
+        flex-direction: column;
     }
 }
 
