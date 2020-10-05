@@ -133,9 +133,9 @@ footer {
 
 
 
-@media all and (max-width: 800px){
+@media all and (min-width: 800px){
     *{
-        flex-direction: column;
+        flex-direction: row;
     }
     .img-container{
         margin: 20px auto;
